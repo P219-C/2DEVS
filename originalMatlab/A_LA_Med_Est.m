@@ -2,7 +2,7 @@ clear
 clc
 close all
 
-info = importdata('info_control.txt');
+info = importdata('info_control2.txt');
 
 unidades = cell2mat(info.textdata(1,1));
 clas_arch = cell2mat(info.textdata(2,1));
